@@ -1,31 +1,25 @@
 # Converter Devise
-Julien Clavier 
-Lucas Audoubert
-Léo Vigin
+**The API: exchangerate-api.com**
 
 <br>
 
-**l’API : exchangerate-api.com**
+**Currency selection:**
+- Users must be able to select the source and target currencies from dropdown lists.
 
- <br>
+**Amount input:**
+- Add a field where users can enter the amount to convert.
 
-**Sélection des devises :**
-  - Les utilisateurs doivent pouvoir sélectionner les devises source et cible à partir de listes déroulantes.
+**Real-time conversion:**
+- The conversion should take place in real time as the user types the amount.
 
-**Saisie du montant :**
-  -  Ajoutez un champ où les utilisateurs peuvent entrer le montant à convertir.
+**Exchange rate:**
+- Use real exchange rates to perform the conversions.
 
-**Conversion en temps réel :**
-  -  La conversion devrait s’effectuer en temps réel à mesure que l’utilisateur saisit le montant.
+**Result display:**
+- Display the conversion result clearly and readably.
 
-**Taux de change :**
-  - Utilisez des taux de change réels pour effectuer les conversions.
-
-**Affichage du résultat :**
-  -  Affichez le résultat de la conversion de manière claire et lisible.
-
-**Historique des conversions :**
-  -  Enregistrez et affichez l’historique des conversions (à l’aide de localStorage), sous la forme suivante : Date : 100 EUR = 110 USD.
+**Conversion history:**
+- Save and display the conversion history (using localStorage), in the following format: Date: 100 EUR = 110 USD.
 
 <br>
 
@@ -33,29 +27,36 @@ Léo Vigin
 - JS
     - [X] LocalStorage
     - [X] API
-      - [X] Liste déroulante
-    - [X] Conversion temps réel (variable du résultat)
+      - [X] Dropdown list
+    - [X] Real-time conversion (result variable)
 
-  <br>
+<br>
 
 - HTML
    - [X] Form
      - [X] Input (number)
 
-  <br>
+<br>
 
 - CSS
-     - [X] Résultat
-     - [X] Historique
-
+     - [X] Result
+     - [X] History
 
 <br>
 
-##  Critères d’évaluation
-- **Fonctionnalités** : Les fonctionnalités doivent être implémentées correctement et fonctionner correctement.
-- **Code** : Le code doit être propre et bien structuré.
-- **Interface** utilisateur : L’interface utilisateur doit être conviviale et esthétique.
-- **Git** : Le repository doit être propre et bien structuré (branches, commits, etc).
+## Evaluation Criteria
+- **Features**: The features must be implemented correctly and work properly.
+- **Code**: The code must be clean and well structured.
+- **User Interface**: The user interface must be user-friendly and aesthetically pleasing.
+- **Git**: The repository must be clean and well organized (branches, commits, etc.).
 <br>
 
-# Deadline : Dimanche 28 Septembre 23h59
+## Authors
+@LeoVigin
+<br>
+@JulienC7
+<br>
+@LucasAudoubert
+<br>
+
+# Deadline: Sunday, September 28, 11:59 PM
